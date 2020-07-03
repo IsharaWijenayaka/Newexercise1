@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textAdd"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:text="   Add new Post Details..."
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textUserId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textAdd"
+        android:layout_marginTop="50dp"
+                android:padding="10dp"
+        android:text="UserId"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/userId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textUserId"
+        android:hint="userid"
+        android:inputType="textPersonName"
+        android:padding="20dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userId"
+
+        android:padding="10dp"
+        android:text="Title"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textTitle"
+
+        android:hint="title"
+        android:inputType="textPersonName"
+        android:padding="20dp" />
+
+    <TextView
+        android:id="@+id/textbody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:padding="10dp"
+        android:text="Body"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textbody"
+        android:layout_marginTop="0dp"
+        android:hint="body"
+        android:inputType="textPersonName"
+        android:padding="20dp" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/body"
+        android:layout_alignParentRight="true"
+
+        android:text="Add"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

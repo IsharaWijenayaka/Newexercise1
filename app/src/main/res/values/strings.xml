@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Newexercise1</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer </string>
+    <string name="navigation_drawer_close">close navigation drawer </string>
+
+</resources>
